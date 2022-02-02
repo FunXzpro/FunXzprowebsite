@@ -1,6 +1,6 @@
 const changeMainImage = (itemName) => {
     const objImages = {
-      youtube: '../images/ya ya 1.png' width: 500px height: 300px,
+      youtube: '../images/ya ya 1.png',
       discord: '../images/ya ya 5.png',
       instagram: '../images/ya ya 3.png',
       github: '../images/ya ya 4.png',
