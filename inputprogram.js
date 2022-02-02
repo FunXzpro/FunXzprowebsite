@@ -1,11 +1,11 @@
 const changeMainImage = (itemName) => {
     const objImages = {
-      youtube: '../images/ya ya 1.png',
-      discord: '../images/ya ya 5.png',
-      instagram: '../images/ya ya 3.png',
-      github: '../images/ya ya 4.png',
-      twitter: '../images/ya ya 2.png',
-      default: '../images/ya ya.png'
+      youtube: '../images/ya ya 1.png' alt="",
+      discord: '../images/ya ya 5.png' alt="",
+      instagram: '../images/ya ya 3.png' alt="",
+      github: '../images/ya ya 4.png' alt="",
+      twitter: '../images/ya ya 2.png' alt="",
+      default: '../images/ya ya.png' alt=""
     };
     const img = document.getElementById('main-photo')
     if (itemName && objImages[itemName]) {
