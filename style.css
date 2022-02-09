@@ -10,6 +10,16 @@ h1 {
     text-align: center;
     
 }
+p{
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  -webkit-text-fill-color: rgb(81, 119, 177); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(77, 86, 122);
+  font-family: "arial", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
 .one {
     /* text-shadow: 2px 2px #ff0000; */
     font-size: 40px;
