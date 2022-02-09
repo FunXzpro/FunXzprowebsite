@@ -10,7 +10,7 @@ h1 {
     text-align: center;
     
 }
-p{
+p {
   font-size: 50px;
   color: rgb(255, 0, 0);
   -webkit-text-fill-color: rgb(81, 119, 177); /* Will override color (regardless of order) */
