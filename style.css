@@ -193,3 +193,6 @@ body{
 footer{
   margin: 10px;
 }
+html{
+    zoom: 160%;
+}
