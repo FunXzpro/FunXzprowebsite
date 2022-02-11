@@ -1,6 +1,6 @@
 h1 {
     /* text-shadow: 2px 2px #ff0000; */
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(255, 0, 0);
     -webkit-text-fill-color: rgb(51, 101, 175); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
@@ -11,7 +11,7 @@ h1 {
     
 }
 p {
-  font-size: 50px;
+  font-size: 30px;
   color: rgb(255, 0, 0);
   -webkit-text-fill-color: rgb(81, 119, 177); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
@@ -19,10 +19,11 @@ p {
   font-family: "arial", Times, serif;
   font-weight: bold;
   text-align: center;
+  max-width: 80%;
 }
 .one {
     /* text-shadow: 2px 2px #ff0000; */
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 0, 0);
     -webkit-text-fill-color: rgb(51, 101, 175); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
@@ -31,6 +32,28 @@ p {
     font-weight: bold;
     text-align: center;
     
+}
+.two {
+  /* text-shadow: 2px 2px #ff0000; */
+  color: rgb(255, 0, 0);
+  -webkit-text-fill-color: rgb(190, 113, 77); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(156, 91, 79);
+  font-family: "arial", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.three {
+  /* text-shadow: 2px 2px #ff0000; */
+  color: rgb(255, 0, 0);
+  -webkit-text-fill-color: rgb(141, 126, 223); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(75, 58, 133);
+  font-family: "arial", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
@@ -160,4 +183,13 @@ span{
 max-width: 500px;
 }
 
-.wrapper .github:hover span,
+.imagesize{
+  width:500px;
+  margin: 50px;
+}
+body{
+  width: 100%;
+}
+footer{
+  margin: 10px;
+}
