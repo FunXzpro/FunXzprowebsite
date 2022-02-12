@@ -12,7 +12,7 @@ const changeMainImage = (itemName) => {
   if (itemName && objImages[itemName]) {
     usedImage = objImages[itemName];
   }
-  img.src = `/images/${usedImage}`;
+  img.src = `images/${usedImage}`;
 };
   
 
