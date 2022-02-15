@@ -54,7 +54,7 @@ p {
   color: rgb(255, 0, 0);
   -webkit-text-fill-color: rgb(190, 113, 77); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(156, 91, 79);
+  -webkit-text-stroke-color: rgb(126, 75, 51);
   font-family: "arial", Times, serif;
   font-weight: bold;
   text-align: right;
@@ -70,8 +70,9 @@ p {
   -webkit-text-stroke-color: rgb(75, 58, 133);
   font-family: Helvetica, Arial, Times, serif;
   font-weight: bold;
-  text-align: center;
-  
+  text-align: right;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .buttons-and-image {
