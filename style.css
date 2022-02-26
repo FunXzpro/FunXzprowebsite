@@ -27,15 +27,8 @@ h1 {
     text-align: center;
     
 }
-p {
+p{
   font-size: 30px;
-  color: rgb(255, 0, 0);
-  -webkit-text-fill-color: rgb(81, 119, 177); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(77, 86, 122);
-  font-family: "arial", Times, serif;
-  font-weight: bold;
-  direction: rtl;
 }
 .one {
     /* text-shadow: 2px 2px #ff0000; */
@@ -52,15 +45,26 @@ p {
 .two {
   /* text-shadow: 2px 2px #ff0000; */
   color: rgb(255, 0, 0);
-  -webkit-text-fill-color: rgb(190, 113, 77); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(126, 75, 51);
+  -webkit-text-fill-color: rgb(190, 137, 77); /* Will override color (regardless of order) */
+
   font-family: "arial", Times, serif;
   font-weight: bold;
   text-align: right;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
   
+}
+h1.two{
+    /* text-shadow: 2px 2px #ff0000; */
+    color: rgb(255, 0, 0);
+    -webkit-text-fill-color: rgb(190, 113, 77); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(126, 73, 49);
+    font-family: "arial", Times, serif;
+    font-weight: bold;
+    text-align: right;
+    max-width: 80%;
+    margin: 1 auto;
 }
 .three {
   /* text-shadow: 2px 2px #ff0000; */
@@ -70,7 +74,8 @@ p {
   font-weight: bold;
   text-align: right;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
+  font-size: -20px;
 }
 
 .buttons-and-image {
