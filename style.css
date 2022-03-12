@@ -230,3 +230,18 @@ img.main-image {
   }
 }
 
+nav {
+  width: 100%;
+  background-color: #00d8f8;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+nav a {
+  margin: 2px;
+  padding: 5px;
+
+}
